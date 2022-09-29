@@ -15,12 +15,13 @@ h1, h3{
 
 #title h1{
   font-family: 'Sacramento', cursive;
-  font-size: 2.7rem;
+  font-size: min(3rem,8vw);
 }
 
 #title p{
   font-family: 'Bodoni Moda', serif;
   font-weight: 600;
+  font-size: min(0.9rem,2.3vw)
 }
 
 #title{
@@ -42,7 +43,8 @@ h1, h3{
 }
 
 #img-div figcaption{
-  padding: 20px 0;
+  padding: 1em 0;
+  font-size: min(3.5vw,16px);
 }
 
 /****************************** Tribute - Info Style*********************************/
@@ -55,13 +57,17 @@ h1, h3{
   font-family: 'Bodoni Moda', serif;
 }
 
+#tribute-info-details{
+    font-size: min(3.5vw,17px);
+}
+
 #tribute-info, blockquote{
-  width: clamp(250px,60%,500px);
+  width: clamp(220px,60%,500px);
   margin:auto;
 }
 
 #tribute-info h3{
-  font-size: 20px;
+  font-size: min(21px,4vw);
   text-align: center;
 }
 
@@ -69,9 +75,13 @@ h1, h3{
   margin: 3rem 0;
 }
 
+blockquote{
+  font-size: min(3vw,16px);
+}
+
 .extra-info{
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: min(1.1rem,4.5vw);
   font-family: 'Bodoni Moda', serif;
   padding: 30px 0px 30px 0;
 }
