@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+main{
+  background-color: rgb(0,0,0,0.05);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*****************************Header Title and Image Style ***************************/
+
+h1, h3{
+  font-weight: 800;
+}
+
+#title h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 2.7rem;
+}
+
+#title p{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 600;
+}
+
+#title{
+  padding: 10px 0;
+}
+
+#img-div{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#img-div img{
+  display: block;
+  height: auto;
+  max-width: 100%;
+  max-height: 45rem;
+}
+
+#img-div figcaption{
+  padding: 20px 0;
+}
+
+/****************************** Tribute - Info Style*********************************/
+
+#header, figcaption, .extra-info{
+  text-align: center;
+}
+
+#tribute-info-title{
+  font-family: 'Bodoni Moda', serif;
+}
+
+#tribute-info, blockquote{
+  width: clamp(250px,60%,500px);
+  margin:auto;
+}
+
+#tribute-info h3{
+  font-size: 20px;
+  text-align: center;
+}
+
+#tribute-info ul{
+  margin: 3rem 0;
+}
+
+.extra-info{
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: 'Bodoni Moda', serif;
+  padding: 30px 0px 30px 0;
+}
+
+.copy-right{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+  padding-bottom: 2.5rem;
+}
